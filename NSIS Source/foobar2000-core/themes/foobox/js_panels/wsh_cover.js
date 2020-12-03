@@ -1166,7 +1166,7 @@ function Display(x, y, w, h, prop) {
 		g.DrawString("BOX",txt_font, RGBA(0,0,0,255), margin_left+txt_title_w/2,margin_top,txt_title_w,txt_title_h)
 		g.DrawString("5  E D I T I O N",GdiFont("Tahoma",Math.floor(w/26),0), RGBA(0,0,0,255), margin_left+txt_title_w/2,margin_top+txt_title_h+10,txt_title_w,txt_title_h)
 		*/
-		var cover_img_default = gdi.Image(fb.FoobarPath + "themes\\foobox\\images\\cover_default.jpg")
+		var cover_img_default = gdi.Image(fb.FoobarPath + "themes\\foobox\\images\\cover_default.png")
 		g.DrawImage(cover_img_default, 0, 0, w, h, 0, 0, cover_img_default.Width, cover_img_default.Height, 0);
 		cover_default.ReleaseGraphics(g);
 		cover_default = CreateRawBitmap2(cover_default);
